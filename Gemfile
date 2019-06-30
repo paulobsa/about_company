@@ -37,6 +37,7 @@ gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise'
 gem 'devise-bootstrapped'
+gem 'apartment'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
