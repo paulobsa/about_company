@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple railsapp implementing multitenancy (not use localhost)
 
-Things you may want to cover:
 
 * Ruby version
+2.5.0
+
+* Rails version
+5.2.3
 
 * System dependencies
 
 * Configuration
+Use 'lvh.me:3000' to access
+or
+'subdomain.lvh.me:3000'
 
 * Database creation
-
+rails db:create
 * Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails db:migrate
